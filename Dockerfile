@@ -17,8 +17,8 @@ COPY logger.py .
 COPY secintel.py .
 
 # set listen port
-ENV PORT_HTTP "8181"
-EXPOSE 8181
+ENV PORT_HTTP "8182"
+EXPOSE 8182
 
 
 ENTRYPOINT ["python", "/secintel.py"]
